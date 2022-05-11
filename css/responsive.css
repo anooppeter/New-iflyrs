@@ -92,17 +92,18 @@
     .strip_list .go_to {
         height: auto;
     }
-    #hero_video {
+    /* #hero_video {
 		position: relative;
 		background-size: cover;
 		color: #fff;
-		width: 100%;
+		width: 85vh;
 		font-size: 16px;
+        object-fit: cover;
 		display: table;
 		height:100%;
 		z-index:99;
 		text-align: center;
-    }
+    } */
 
     /*Map listing */
     .full-height,
