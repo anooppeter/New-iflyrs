@@ -2262,7 +2262,7 @@ blockquote.styled {
 }
 
 .white_bg {
-    background-color: #fff;
+    background-color: transparent;
 }
 
 /*============================================================================================*/
