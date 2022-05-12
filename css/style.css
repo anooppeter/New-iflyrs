@@ -112,7 +112,8 @@ label {
 h2.red-text {
     color: #333;
     background-color: rgb(247, 255, 254);
-    
+    width: 10em;
+    align-items: center;
 }
 
 /** Layes slider typography **/
