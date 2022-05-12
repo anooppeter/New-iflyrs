@@ -54,7 +54,7 @@ html * {
 body {
     font-size: 13px;
     line-height: 1.4;
-    color: rgb(255, 255, 255);
+    color: rgb(54,54,54);
     background-color: #ffffff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -468,7 +468,7 @@ footer ul {
 footer .btn_1 {
     text-transform: none;
     padding: 8px 15px;
-    background: #555;
+    background: #BF40BF;
 }
 #social_footer {
     text-align: center;
@@ -490,7 +490,7 @@ footer .btn_1 {
     margin: 0 5px 10px 5px;
 }
 #social_footer ul li a {
-    color: #666;
+    color: #BF40BF;
     text-align: center;
     line-height: 34px;
     display: block;
@@ -1800,7 +1800,7 @@ select.form-control.form-white {
     position: relative;
     padding: 1px 30px 10px 30px;
     text-align: center;
-    background: #78cfcf;
+    background: #BF40BF;
     border-radius: 0px;
     border: none;
 }
@@ -2847,7 +2847,7 @@ ul.list_ok li:before {
     line-height: 60px;
     text-align: center;
     font-size: 38px;
-    color: #6dcff6;
+    color: rgb(103 103 103);
 }
 label.margin_left {
     margin-left: 15px !important;
