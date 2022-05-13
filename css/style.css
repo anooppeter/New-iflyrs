@@ -1780,6 +1780,17 @@ select.form-control.form-white {
     font-size: 60px;
     opacity: 0.5;
 }
+
+h2.popup_text {
+
+    color: #fff;
+}
+h4.popup_text {
+
+    color: #fff;
+}
+
+
 .modal-backdrop {
     z-index: 999999;
 }

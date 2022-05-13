@@ -71,11 +71,20 @@
                     <li class="submenu">
                     <a href="grid_list.html" class="show-submenu">Influencers</a>
                     </li>
-                    <li class="submenu">    
-                    <a href="contacts.html" class="show-submenu">Contact</a>
-                    </li>
                     <li><a href="about.html">About us</a></li>
-                    <li><a href="#0" data-toggle="modal" data-target="#login_2">Login</a></li>
+                    <li class="submenu">
+                        <a href="javascript:void(0);" class="show-submenu">Login<i class="icon-down-open-mini"></i></a>
+                        <ul>
+                            <li><a href="#0" data-toggle="modal" data-target="#login_2">User Login</a></li>
+                            <li><a href="#0" data-toggle="modal" data-target="#brand_login">Brand Login</a></li>
+                            <li><a href="#0" data-toggle="modal" data-target="#Influencer_login">Infulencer Login</a></li>
+                        </ul>
+                        </li>
+                        <li class="submenu">    
+                            <a href="contacts.html" class="show-submenu">Contact</a>
+                            </li>
+                    
+                   
                 </ul>
             </div><!-- End main-menu -->
             </nav>
@@ -394,48 +403,84 @@
 
     <div class="layer"></div><!-- Mobile menu overlay mask -->
 
-    <!-- Login modal -->
+    <!-- Login modal --> 
     <div class="modal fade" id="login_2" tabindex="-1" role="dialog" aria-labelledby="myLogin" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content modal-popup">
                 <a href="#" class="close-link"><i class="icon_close_alt2"></i></a>
-                <form action="#" class="popup-form" id="myLogin">
+				<form action="#" class="popup-form" id="myLogin">
                     <div class="login_icon"><i class="icon_lock_alt"></i></div>
-                    <input type="text" class="form-control form-white" placeholder="Username">
-                    <input type="text" class="form-control form-white" placeholder="Password">
-                    <div class="text-left">
-                        <a href="#">Forgot Password?</a>
-                    </div>
-                    <button type="submit" class="btn btn-submit">Submit</button>
-                </form>
-            </div>
-        </div>
-    </div><!-- End modal -->
-    
-    <!-- Register modal -->
-    <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="myRegister" aria-hidden="true">
+                    <h2 class="popup_text">User Login</h2>
+                    <a class="btn_1" href="/html/blog.html">Sign In With Google</a>
+					<div class="">
+                        <h4 class="popup_text">Or</h4>
+						<a class="btn_1" href="#0" data-toggle="modal" data-target="#register">Register Here</a>
+					</div>
+					<button type="submit" class="btn btn-submit">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div><!-- End modal -->   
+
+    <!-- Brand Login modal --> 
+    <div class="modal fade" id="brand_login" tabindex="-1" role="dialog" aria-labelledby="myLogin" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content modal-popup">
                 <a href="#" class="close-link"><i class="icon_close_alt2"></i></a>
-                <form action="#" class="popup-form" id="myRegister">
-                    <div class="login_icon"><i class="icon_lock_alt"></i></div>
-                    <input type="text" class="form-control form-white" placeholder="Name">
-                    <input type="text" class="form-control form-white" placeholder="Last Name">
+				<form action="#" class="popup-form" id="myLogin">
+                    <input type="email" class="form-control form-white" placeholder="Brand Email">
+                    <input type="password" class="form-control form-white" placeholder="Password">
+					<div class="text-left">
+					</div>
+					<button type="submit" class="btn btn-submit">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div><!-- End modal -->   
+
+    <!-- Influencer Login modal --> 
+    <div class="modal fade" id="Influencer_login" tabindex="-1" role="dialog" aria-labelledby="myLogin" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content modal-popup">
+                <a href="#" class="close-link"><i class="icon_close_alt2"></i></a>
+				<form action="#" class="popup-form" id="myLogin">
                     <input type="email" class="form-control form-white" placeholder="Email">
-                    <input type="text" class="form-control form-white" placeholder="Password" id="password1">
-                    <input type="text" class="form-control form-white" placeholder="Confirm password" id="password2">
+                    <input type="password" class="form-control form-white" placeholder="Password">
+					<div class="">
+                        <h4 class="popup_text">Or</h4>
+						<a class="btn_1" href="#0" data-toggle="modal" data-target="#register">Register Here</a>
+					</div>
+					<button type="submit" class="btn btn-submit">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div><!-- End modal -->   
+    
+  <!-- Register modal -->   
+  <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="myRegister" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content modal-popup">
+				<a href="#" class="close-link"><i class="icon_close_alt2"></i></a>
+				<form action="#" class="popup-form" id="myRegister">
+                	<div class="login_icon"><i class="icon_lock_alt"></i></div>
+					<input type="text" class="form-control form-white" placeholder="Name">
+					<input type="text" class="form-control form-white" placeholder="Last Name">
+                    <input type="email" class="form-control form-white" placeholder="Email">
+                    <input type="text" class="form-control form-white" placeholder="Adhaar Number">
+                    <input type="password" class="form-control form-white" placeholder="Password"  id="password1">
+                    <input type="password" class="form-control form-white" placeholder="Confirm password"  id="password2">
                     <div id="pass-info" class="clearfix"></div>
-                    <div class="checkbox-holder text-left">
-                        <div class="checkbox">
-                            <input type="checkbox" value="accept_2" id="check_2" name="check_2" />
-                            <label for="check_2"><span>I Agree to the <strong>Terms &amp; Conditions</strong></span></label>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-submit">Register</button>
-                </form>
-            </div>
-        </div>
-    </div><!-- End Register modal -->
+					<div class="checkbox-holder text-left">
+						<div class="checkbox">
+							<input type="checkbox" value="accept_2" id="check_2" name="check_2" />
+							<label for="check_2"><span>I Agree to the <strong>Terms &amp; Conditions</strong></span></label>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-submit">Register</button>
+				</form>
+			</div>
+		</div>
+	</div><!-- End Register modal -->
     
 <!-- COMMON SCRIPTS -->
 <script src="js/jquery-3.6.0.min.js"></script>
