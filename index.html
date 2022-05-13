@@ -55,7 +55,10 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4 col-sm-4 col-4">
-                <a href="index.html" class="show-submenu">iFLyrs</a>
+                <a href="index.html" id="logo">
+                    <img src="img/Group 20.png" width="100" height="50" alt="" class="d-none d-sm-block">
+                    <img src="img/Group 20.png" width="40" height="20" alt="" class="d-block d-sm-none">
+                </a>
             </div>
             <nav class="col-md-8 col-sm-8 col-8">
             <a class="cmn-toggle-switch cmn-toggle-switch__htx open_close" href=""><span>Menu mobile</span></a>
@@ -71,7 +74,7 @@
                     <li class="submenu">
                     <a href="grid_list.html" class="show-submenu">Influencers</a>
                     </li>
-                    <li><a href="about.html">About us</a></li>
+                    <li><a href="about.html">About Us</a></li>
                     <li class="submenu">
                         <a href="javascript:void(0);" class="show-submenu">Login<i class="icon-down-open-mini"></i></a>
                         <ul>
@@ -80,9 +83,11 @@
                             <li><a href="#0" data-toggle="modal" data-target="#Influencer_login">Infulencer Login</a></li>
                         </ul>
                         </li>
-                        <li class="submenu">    
-                            <a href="contacts.html" class="show-submenu">Contact</a>
-                            </li>
+                    <li class="submenu">    
+                        <a href="contacts.html" class="show-submenu">Contact</a>
+                        </li>
+                    
+                       
                     
                    
                 </ul>
@@ -411,6 +416,8 @@
 				<form action="#" class="popup-form" id="myLogin">
                     <div class="login_icon"><i class="icon_lock_alt"></i></div>
                     <h2 class="popup_text">User Login</h2>
+                    <input type="email" class="form-control form-white" placeholder="Email">
+                    <input type="password" class="form-control form-white" placeholder="Password">
                     <a class="btn_1" href="/html/blog.html">Sign In With Google</a>
 					<div class="">
                         <h4 class="popup_text">Or</h4>
@@ -432,7 +439,11 @@
                     <h2 class="popup_text">Brand Login</h2>
                     <input type="email" class="form-control form-white" placeholder="Brand Email">
                     <input type="password" class="form-control form-white" placeholder="Password">
-					<div class="text-left">
+					<div class="">
+                        <div class="">
+                            <h4 class="popup_text">Or</h4>
+                            <a class="btn_1" href="#0" data-toggle="modal" data-target="#register">Register Here</a>
+                        </div>
 					</div>
 					<button type="submit" class="btn btn-submit">Submit</button>
 				</form>
