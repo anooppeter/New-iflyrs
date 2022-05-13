@@ -20,7 +20,8 @@
 .main-menu ul li a {
     position: relative;
     margin: 0;
-    padding: 0;
+    padding: 1px;
+    padding-top: 3px;
 }
 
 /* Submenu styles */
