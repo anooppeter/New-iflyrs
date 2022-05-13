@@ -28,10 +28,10 @@
     display: block;
     padding: 10px;
 }
-
+ 
 /*First level styles */
 .main-menu > ul > li > a {
-  color: #bf40bf;
+  color: #e667e6;
   padding: 2px 8px 15px 10px;
   font-size: 14px;
   margin: 0;
