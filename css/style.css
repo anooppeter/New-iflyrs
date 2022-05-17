@@ -751,16 +751,16 @@ video {
     margin-left: -20px;
 }
 .box_home#one {
-    background: #fff url(../img/conceptualizing-idea-business\ idea-thinking-business.svg) no-repeat center 40px;
+    background: #fff url(../img/MULTIPLE.svg) no-repeat center 25px;
 }
 .box_home#two {
-    background: #fff url(../img/growth\ hacking\ team-business-strategy-plan-marketing.svg) no-repeat center 40px;
+    background: #fff url(../img/OPERATOR.svg) no-repeat center 25px;
 }
 .box_home#three {
-    background: #fff url(../img/small\ budget-money-investment-budget-business.svg) no-repeat center 40px;
+    background: #fff url(../img/3D\ SCANNER.svg) no-repeat center 25px;
 }
 .box_home#four {
-    background: #fff url(../img/achievement-goal-success-business-business\ goal.svg) no-repeat center 40px;
+    background: #fff url(../img/CUBE.svg) no-repeat center 25px;
 }
 .box_home h3 {
     font-size: 16px;
@@ -1940,7 +1940,7 @@ h4.popup_text {
 }
 .margin_60 {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 0px;
 }
 .margin_60_35 {
     padding-top: 60px;

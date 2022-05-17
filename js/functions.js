@@ -25,12 +25,7 @@ $(window).on('load', function() { // makes sure the whole site is loaded
 =============================================== */
 $(window).on('scroll', function () {
     'use strict';
-    if ($(this).scrollTop() > 1){  
         $('header').addClass("sticky");
-    }
-    // else{
-    //     $('header').removeClass("sticky");
-    // }
 });
 
 /* ==============================================
